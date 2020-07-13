@@ -1,0 +1,49 @@
+{
+  "name": "TestingRegisterForm",
+  "description": "Blank Process",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.8.6]",
+    "UiPath.Mail.Activities": "[1.8.6]",
+    "UiPath.System.Activities": "[20.4.0]",
+    "UiPath.Testing.Activities": "[1.1.1-preview]",
+    "UiPath.UIAutomation.Activities": "[20.4.2]"
+  },
+  "webServices": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.4.3.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "fcdf21ad-601d-474e-95f6-14c8ab6e2b9f",
+        "fileName": "TestCase001.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "0bf3c41c-4045-4b6d-9499-09222952dfb1",
+        "dataVariationFilePath": ".variations\\Testing_Sheet1.json",
+        "fileName": "DataDrivenTestCase.xaml"
+      }
+    ]
+  },
+  "expressionLanguage": "VisualBasic"
+}
